@@ -22,7 +22,6 @@ app.post('/post/', async (req,res)=>{
         "statusText": "Created"
         }
         )
-
 })
 
 app.get('/post/', async (req, res) => {
